@@ -361,10 +361,14 @@ body {
 .video-get-started__icon {
     flex: 0 0 44px;
 }
-.video-get-started__body {
+.video-get-started__icon:hover {
+	opacity: 0.3;
+}
 
+.video-get-started__body {
     padding: 0px 0px 0px 12px;
 }
+
 .video-get-started__title {
     font-size: 13px;
     line-height: 126%;
@@ -655,6 +659,7 @@ body {
     padding: 0px 36px;
     flex: 0 1 33.333%;
 }
+
 .item-healthcare {
     height: 100%;
     position: relative;
@@ -768,5 +773,4 @@ body {
         flex-direction: column;
     }
 }
-
 
